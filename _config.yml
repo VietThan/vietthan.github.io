@@ -18,7 +18,8 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
-excerpt_separator: <!–break–>
+excerpt_separator: <!--break-->
+show_excerpts: true
 
 # GitHub Pages forced configurations:
 # lsi: false
