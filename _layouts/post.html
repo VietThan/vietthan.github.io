@@ -12,7 +12,19 @@ layout: default
       </time>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}</p> 
+  <div class="post-categories">
+    {% if post %}
+      {% assign categories = post.categories %}
+    {% else %}
+      {% assign categories = page.categories %}
+    {% endif %}
+    Category:
+    {% for category in categories %}
+    <a href="{{site.baseurl}}/categories/{{category|slugize}}">{{category}}</a>
+    {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  </div>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -20,16 +32,16 @@ layout: default
   </div>
 
   <div class="post-nav">
-    <div>
+    <p>
       {% if page.previous.url %}
-      <a href="{{page.previous.url}}">&laquo;&nbsp;{{page.previous.title}}</a>
+      <a href="{{page.previous.url}}">&#8672;&nbsp;{{page.previous.title}}</a>
       {% endif %}
-    </div>
-    <div class="post-nav-next">
+    </p>
+    <p>
       {% if page.next.url %}
-      <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&raquo;</a>
+      <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#8674;</a>
       {% endif %}
-    </div>
+    </p>
   </div>
 
   {%- if site.disqus.shortname -%}
