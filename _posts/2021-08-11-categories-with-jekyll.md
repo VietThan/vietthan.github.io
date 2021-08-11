@@ -8,4 +8,6 @@ So I added categories. This allows people to read my blog specific categories if
 
 Now I have to figure out how to make my header navigation bar.
 
-Hacked together with [Webjeda](https://blog.webjeda.com/jekyll-categories/) and [Azure Patterns](https://www.azurepatterns.com/2020/03/11/jekyll-categories).
+Hacked together with tutorials from [Webjeda](https://blog.webjeda.com/jekyll-categories/) and [Azure Patterns](https://www.azurepatterns.com/2020/03/11/jekyll-categories). 
+
+Edit: And reading the jekyll [theme docs](https://jekyllrb.com/docs/themes/).
