@@ -14,7 +14,7 @@ _So a certain country blocks Medium so I'm recreating it here_
 
 Face it: nobody likes fractions, not even computers.
 
-When we talk about COBOL the first question on everyone’s mind is always *Why are we still using it in so many critical places?* Banks are still running COBOL, close to 7% of the GDP is dependent on COBOL in the form of payments from the [Centers for Medicare & Medicaid Services](1), The IRS famously still uses COBOL, airlines still use COBOL ([Adam Fletcher](2) dropped my favorite fun fact on this topic in his [Systems We Love talk](3): the reservation number on your ticket used to be just a pointer), lots of critical infrastructure both in the private and public sector still runs on COBOL.
+When we talk about COBOL the first question on everyone’s mind is always *Why are we still using it in so many critical places?* Banks are still running COBOL, close to 7% of the GDP is dependent on COBOL in the form of payments from the [Centers for Medicare & Medicaid Services](https://www.cms.gov/), The IRS famously still uses COBOL, airlines still use COBOL ([Adam Fletcher](https://medium.com/u/1c85b35a0c79) dropped my favorite fun fact on this topic in his [Systems We Love talk](https://systemswe.love/videos/life-of-an-airline-flight): the reservation number on your ticket used to be just a pointer), lots of critical infrastructure both in the private and public sector still runs on COBOL.
 
 _**Why?**_
 
@@ -28,14 +28,14 @@ One of the fun side effects of my summer learning COBOL is that I’m beginning 
 
 ### Where’s Your Point?
 
-I took a little break from writing about COBOL to write about [the ways computers stored information before binary became the de facto standard](4) (and also [a primer on how to use the z/OS interface](5) but that’s neither here nor there). Turns out that was a useful digression when considering this problem. In that post I talked about various ways one might use on/off states to store base 2 numbers, base 3 numbers, base 10 numbers, negative numbers and so on. The one thing I left out was … How do we store decimals?
+I took a little break from writing about COBOL to write about [the ways computers stored information before binary became the de facto standard](https://medium.com/@bellmar/the-land-before-binary-cc705d5bdd70) (and also [a primer on how to use the z/OS interface](https://medium.com/@bellmar/hello-world-on-z-os-a0ef31c1e87f) but that’s neither here nor there). Turns out that was a useful digression when considering this problem. In that post I talked about various ways one might use on/off states to store base 2 numbers, base 3 numbers, base 10 numbers, negative numbers and so on. The one thing I left out was … How do we store decimals?
 
 If you were designing your own binary computer you might start off by just sticking with a base 2 representation. Bits left of the point represent 1,2,4,8… and bits right of the point represent 1/2, 1/4, 1/8…
 
 
 {% include centerImage.html url="/assets/CobolMath/1.png" desc="2.75 in binary" title="2.75 in binary" alt="fraction is hard" %}
 
-The problem is figuring out how to store the decimal point — or actually I should say the _binary point_ because this is base two after all. This topic is not obscure, so you might realize that I’m referring to _**floating point**_ -vs- _**fixed point**_. In floating point the binary point can be placed anywhere (it can float) [with its exact location stored as an exponent](6). Floating the point gives you a wider range of numbers you can store. You can move the decimal point all the way to the back of the number and devote all the bits to integer values representing very large numbers, or you could move it all the way to the front and represent very small numbers. But you sacrifice precision in exchange. Take another look at the binary representation of 2.75 above. Going from four to eight is a much longer jump than going from one-fourth to one-eight. It might be easier to visualize if we wrote it out like this:
+The problem is figuring out how to store the decimal point — or actually I should say the _binary point_ because this is base two after all. This topic is not obscure, so you might realize that I’m referring to _**floating point**_ -vs- _**fixed point**_. In floating point the binary point can be placed anywhere (it can float) [with its exact location stored as an exponent](https://en.wikipedia.org/wiki/Single-precision_floating-point_format). Floating the point gives you a wider range of numbers you can store. You can move the decimal point all the way to the back of the number and devote all the bits to integer values representing very large numbers, or you could move it all the way to the front and represent very small numbers. But you sacrifice precision in exchange. Take another look at the binary representation of 2.75 above. Going from four to eight is a much longer jump than going from one-fourth to one-eight. It might be easier to visualize if we wrote it out like this:
 
 {% include centerImage.html url="/assets/CobolMath/2.png" desc="Don’t measure the gaps, I just eyeballed this to demonstrate the concept." title="visually spaced binary representation" alt="visually spaced binary representation down to 1/8" %}
 
@@ -45,7 +45,8 @@ Why does this matter? With integers it really doesn’t, some combination of bit
 
 The classic example of this is .1 (one-tenth). How do we represent this in binary? 2-¹ is 1/2 or .5 which is too large. 1/16 is .0625 which is too small. 1/16 + 1/32 gets us closer (0.09375) but 1/16+1/32+1/64 knocks us over with 0.109375.
 
-If you’re thinking to yourself this could go on forever: [yes, that’s exactly what it does](7).
+If you’re thinking to yourself this could go on forever: [yes, that’s exactly what it does](https://www.exploringbinary.com/why-0-point-1-does-not-exist-in-floating-point/
+).
 
 Okay, you say to yourself, why don’t we just store it the same way we store the number 1? We can store the number 1 without problems, let’s just take out the decimal point and store everything as an integer.
 
@@ -67,7 +68,7 @@ We’re going to experiment with COBOL using something called Muller’s Recurre
 
 {% include centerImage.html url="/assets/CobolMath/muller-recurrence.png" desc="From Muller’s Recurrence — roundoff gone wrong" title="Muller's recurrence formula" alt="Showing how float/fix point calculation differs" %}
 
-[Muller’s Recurrence — roundoff gone wrong](8)
+[Muller’s Recurrence — roundoff gone wrong](http://www.latkin.org/blog/2014/11/22/mullers-recurrence-roundoff-gone-wrong/)
 
 That doesn’t look so scary does it? The recurrence problem is useful for our purposes because:
 - It is straight forward math, no complicated formulas or concepts
@@ -128,7 +129,7 @@ i  | floating pt    | fixed pt
 
 Up until about the 12th iteration the rounding error seems more or less negligible but things quickly go off the rails. Floating point math converges around a number twenty times the value of what the same calculation with fixed point math produces.
 
-Least you think it is unlikely that anyone would do a recursive calculation so many times over. [This is exactly what happened in 1991 when the Patriot Missile control system miscalculated the time and killed 28 people](9). And it turns out floating point math has blown lots of stuff up completely by accident. Mark Stadtherr gave an incredible talk about this called [High Performance Computing: are we just getting wrong answers faster?](10) You should read it if you want more examples and a more detailed history of the issue than I can offer here.
+Least you think it is unlikely that anyone would do a recursive calculation so many times over. [This is exactly what happened in 1991 when the Patriot Missile control system miscalculated the time and killed 28 people](https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/). And it turns out floating point math has blown lots of stuff up completely by accident. Mark Stadtherr gave an incredible talk about this called [High Performance Computing: are we just getting wrong answers faster?](https://www3.nd.edu/~markst/cast-award-speech.pdf) You should read it if you want more examples and a more detailed history of the issue than I can offer here.
 
 The trouble is computers do not have infinite memory and therefore cannot store an infinite number of decimal (or binary) places. Fixed point can be more accurate that floating point when you’re confident that you’re unlikely to need more places than you’ve set aside. If you go over, the number will be rounded. Neither fixed point nor floating point are immune to Muller’s Recurrence. Both will eventually produce the wrong answer. The question is _when_? If you increase the number of iterations in the python script from 20 to 22, for example, the final number produced by fixed point will be `0.728107`. Iteration 23? `-501.7081261`. Iteration 24? `105.8598187`.
 
@@ -237,42 +238,18 @@ All of this is to demonstrate that COBOL does not do math better than other more
 
 But there’s a catch… Python (and for that matter Java) do not have fixed point built in and COBOL does.
 
-IIn order to get Python to do fixed point I needed to import the `Decimal` module. If you’ve ever worked on a project with a whole bunch of imports you already know that they are not free. In a language like Java (which is usually what people want to migrate to when they talk about getting rid of COBOL), [the costs of the relevant library can be noticeably higher](11). It’s really more a question of whether worrying about it makes sense for your use case. For most programmers, fussing over the performance hit of an import is the ultimate in premature optimization.
+IIn order to get Python to do fixed point I needed to import the `Decimal` module. If you’ve ever worked on a project with a whole bunch of imports you already know that they are not free. In a language like Java (which is usually what people want to migrate to when they talk about getting rid of COBOL), [the costs of the relevant library can be noticeably higher](https://gist.github.com/hillmanli-seekers/a8ab8e463e7b60989e6d0c0900cf4d93)). It’s really more a question of whether worrying about it makes sense for your use case. For most programmers, fussing over the performance hit of an import is the ultimate in premature optimization.
 
 But COBOL programmers tend to work on systems that must process millions — possibly billions — of calculations per second accurately and reliably. And unfortunately it’s very difficult to make a compelling argument for or against COBOL around that use case because it really is a zone of infinite variation. Is COBOL’s built in fixed point support the difference maker or would the proper combination of processor, memory, operating system, or dance moves neutralize that issue? Even when we restrict the conversation to very specific terms (say COBOL -vs- Java on the same hardware) it is hard to grasp how the trade-offs of each will affect performance when you reach that scale. They are simply too different.
 
 > COBOL is a compiled language with stack allocation, pointers, unions with no run-time cost of conversion between types, and no run-time dispatching or type inference. Java, on the other hand, runs on a virtual machine, has heap allocation, does not have unions, incurs overhead when converting between types, and uses dynamic dispatching and run-time type inferencing. While it is possible to minimize the amount that these features are used, that usually comes at the cost of having code that is not very “Java like”. A common complaint with translators is that the resulting Java code is unreadable and unmaintainable, which defeats much of the purpose of the migration.
 
-[Performance of Java Code Translated from COBOL, UniqueSoft](12)
+[Performance of Java Code Translated from COBOL, UniqueSoft](https://www.uniquesoft.com/pdfs/UniqueSoft-Performance-Considerations-COBOL-to-Java.pdf)
 
 Least you dismiss this issue with “Oh yes, but that’s Java and Java sucks too” remember this: most modern day programming languages do not have support for fixed point or decimal built in either. (Actually I think the correct statement is NONE of them do, but I couldn’t confidently verify that) You can pick a different language with a different combination of trade-offs, sure, but if you need the accuracy of fixed point and you think that the tiny performance cost of importing a library to do it might pile up you really only have one option and that’s COBOL.
 
 That’s why so-called modernization is hard: it depends. Some organizations will realize game changing improvements from their investment, others will find that they forfeit valuable optimizations by switching systems in exchange for “improvements” that really aren’t all that special. When you are a major financial institution processing millions of transactions per second requiring decimal precision, it could actually be cheaper to train engineers in COBOL than pay extra in resources and performance to migrate to a more popular language. After all, popularity shifts over time.
 
 So when considering why so much of our society still runs on COBOL, one needs to realize that the task of rebuilding an application is not the same as the task of building it. The original programmers had the luxury of gradual adoption. Applications tend to pushed out towards the limits of what their technologies can support. The dilemma with migrating COBOL is not that you are migrating from one language to another, but that you are migrating from one paradigm to another. The edges of Java or python on Linux have a different shape than the edges of COBOL on a mainframe. In some cases COBOL may have allowed the application to extend past what modern languages can support. For those cases COBOL running on a modern mainframe will actually be the cheaper, more performant and more accurate solution.
-
- [1]: https://www.cms.gov/
-
- [2]: https://medium.com/u/1c85b35a0c79
-
- [3]: https://systemswe.love/videos/life-of-an-airline-flight
-
- [4]: https://medium.com/@bellmar/the-land-before-binary-cc705d5bdd70
-
- [5]: https://medium.com/@bellmar/hello-world-on-z-os-a0ef31c1e87f
-
- [6]: https://en.wikipedia.org/wiki/Single-precision_floating-point_format
-
- [7]: https://www.exploringbinary.com/why-0-point-1-does-not-exist-in-floating-point/
-
- [8]: http://www.latkin.org/blog/2014/11/22/mullers-recurrence-roundoff-gone-wrong/
-
- [9]: https://hackaday.com/2015/10/22/an-improvement-to-floating-point-numbers/
-
- [10]: https://www3.nd.edu/~markst/cast-award-speech.pdf
-
- [11]: https://gist.github.com/hillmanli-seekers/a8ab8e463e7b60989e6d0c0900cf4d93
-
- [12]: https://www.uniquesoft.com/pdfs/UniqueSoft-Performance-Considerations-COBOL-to-Java.pdf
 
 
