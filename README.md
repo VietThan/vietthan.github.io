@@ -1,4 +1,14 @@
-# Welcome to Viet's Blog
+# Welcome to Viet's Logbook
 
 ## Initial development
-Using [David Federman's blog](https://dfederm.com/creating-a-blog-using-github-pages/)
+Used [David Federman's blog](https://dfederm.com/creating-a-blog-using-github-pages/) to initally setup the github log
+
+## Further development
+Documented in category [Jekyll](https://vietthan.github.io/categories/jekyll)
+
+
+## Running locally
+
+```bash
+$ bundle exec jekyll serve --drafts --livereload
+```
