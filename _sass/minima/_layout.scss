@@ -278,3 +278,19 @@
   padding-left: 0.5em;
   text-align: right;
 }
+
+/* To center images */
+.center-image {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+figure.embed img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
