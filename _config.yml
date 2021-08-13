@@ -15,7 +15,7 @@ linkedin_username: viet-than
 # Site settings
 permalink: /:title/
 markdown: kramdown
-paginate: 5
+paginate: 8
 paginate_path: "/:num/"
 date_format: "%b %-d, %Y"
 excerpt_separator: <!--break-->

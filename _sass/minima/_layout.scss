@@ -294,3 +294,50 @@ figure.embed img {
     margin-left: auto;
     margin-right: auto;
 }
+
+/** Pagination navbar */
+
+.social-media-list {
+  display: table;
+  margin: 0 auto;
+  li {
+    float: left;
+    margin: 5px 10px 5px 0;
+    &:last-of-type { margin-right: 0 }
+    .svg-icon {
+      color: $brand-color;
+    }
+    a {
+      display: block;
+      padding: $spacing-unit / 4;
+      border: 1px solid $brand-color;
+      &:hover {
+        border-color: lighten($brand-color, 25%);
+        .svg-icon {
+          color: lighten($brand-color, 25%);
+        }
+      }
+    }
+  }
+}
+
+.pagination {
+@extend .social-media-list;
+li {
+  a, div {
+    min-width: 41px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  div {
+    display: block;
+    padding: $spacing-unit / 4;
+    border: 1px solid transparent;
+
+    &.pager-edge {
+      color: $brand-color;
+      border: 1px dashed;
+    }
+  }
+}
+}
