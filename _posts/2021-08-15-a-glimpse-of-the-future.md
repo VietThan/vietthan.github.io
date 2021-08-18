@@ -5,7 +5,7 @@ date: 2021-08-15 23:24:47 -0400
 categories: [tech, society]
 ---
 
-A participant in OpenAI's Codex invitational recently posted on HackerNews [an unlist video](https://www.youtube.com/watch?v=aneK0TUUAfA) of how the DOM is manipulated by Codex with natural language text.
+A participant in OpenAI's Codex invitational recently posted on HackerNews [an unlisted video](https://www.youtube.com/watch?v=aneK0TUUAfA) of how the DOM is manipulated by Codex with natural language text.
 
 I'm reminded of this quote:
 
