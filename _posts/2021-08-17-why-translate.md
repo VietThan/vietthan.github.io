@@ -11,3 +11,5 @@ categories: [society]
 > - Dan Dascalescu
 
 [Link](https://web.archive.org/web/20200317221752/https://wiki.dandascalescu.com/essays/english-universal-language)
+
+Definitely will translate this at some point.
