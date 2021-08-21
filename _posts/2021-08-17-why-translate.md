@@ -2,7 +2,7 @@
 layout: post
 title: "why translate?"
 date: 2021-08-17 21:25:24 -0400
-categories: [society]
+categories: [society, controversial]
 ---
 
 > Just consider the huge amount of online and offline knowledge that's simply unavailable to you for the silly reason that it's written in a language you don't understand. Should we encourage this status quo by promoting the learning of more languages so that people can generate more knowledge in more languages? Should we keep translating from the most common languages into a myriad of other languages?

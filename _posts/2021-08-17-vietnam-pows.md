@@ -2,7 +2,7 @@
 layout: post
 title: "vietnam POWs"
 date: 2021-08-17 22:21:01 -0400
-categories: [society, history]
+categories: [society, history, controversial]
 ---
 
 > How were South Vietnamese, in general, treated by North Vietnam ?
