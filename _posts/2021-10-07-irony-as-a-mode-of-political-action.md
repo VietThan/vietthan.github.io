@@ -5,6 +5,8 @@ date: 2021-10-07 15:16:00 -0400
 categories: [controversial, history, society]
 ---
 
+Edit: included rebuttal
+
 >IRONY AS A MODE OF POLITICAL ACTION
 >
 >We are generally used to the assumption that the motivation driving political action is sincere. All past political movements fit that criteria. Progressives were, and still are sincere about curing racism from the world. Nazis were sincere about doing Nazi things. And so were Protestants, Catholics. Augustus Caesar and his army were sincere in wanting to rule an empire.
@@ -14,7 +16,7 @@ categories: [controversial, history, society]
 >This sort of phenomenon wouldn't be news to Baudrillard or Nietschze - the lack of sincerity of belief would just be an obvious symptom of modern life. Normally, these insincere people are cast as politically helpless, last men and slaves to a few rules who control their lives effortlessly. But suppose that the way to move them into taking action was through the opposite of sincere ideology, instead only through the insincere.
 >
 >The most clear, and perhaps only example of this - was the debacle involving the Gamestop stock. A bunch of normal people were willing to throw their money at something for reasons that were mostly insincere: memes and shitposting at the man. Mocking the man with graffiti is nothing new, but usually there is a framework held in opposition to what the man believes. The 60s radicals had their communism to hold against the pseudocapitalism of 60s America. Antifa today still does, and still is sincere, even if their ideas are pathetic and wrongheaded. But what does r/wsb believe in?
-><!--beak-->
+><!--break-->
 >
 >The radical right does have tenuous ties to Nazi or Randian ideology, but not conclusively. It's hard to be a Nazi outside of Germany, or to rescue the capitalists from themselves. So all that's left is to believe in nothing. Some 'neo-Leninists' want to resuscitate the old ideals of Marx to give them an ideology, but I haven't been that impressed with what they've accomplished so far.
 >
