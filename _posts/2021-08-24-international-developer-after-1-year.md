@@ -2,7 +2,7 @@
 layout: post
 title: "international developer after 1 year"
 date: 2021-08-24 22:50:57 -0400
-categories: [personal], society]
+categories: [personal, society]
 ---
 
 The path for a foreign worker that came to the US through university is very straightforward if they want to live a life here afterwards. My assumption here is that you're not rich, that you don't have family that is already a permanent citizen (green card) that can pull you over, you're not marrying a US citizen, and you're not eligible for like asylum/diversity visa. Oh and you're not super-talented and wins awards, and got papers, or save the pope's life etc. etc.
