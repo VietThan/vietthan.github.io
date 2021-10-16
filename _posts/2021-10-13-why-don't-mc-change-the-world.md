@@ -2,7 +2,7 @@
 layout: post
 title: "why don't MC change the world"
 date: 2021-10-13 08:10:55 -0400
-categories: [society, quote]
+categories: [society, quotes]
 ---
 
 > As for the newly appointed Duke of Star Lake, due to his gentle attitude towards governance (he did not care about it), his lack of taxation (he had no ambition), and his freedom (he had no sense of existence), he soon gained a good reputation in the fiefs and villages.
@@ -21,6 +21,7 @@ categories: [society, quote]
 >
 >"I don't know. Reform, improve, innovate, and improve? Just like some knights' poems said, a knight with broad horizons obtained his own fiefdom, enacted a new policy to sweep away all of his lingering problems, accumulate land troops and food, and finally become a developed and advanced country. He swept through the world and created history?"
 >
+><!--break-->
 >Thales smiled.
 >
 >"Reform, improve, innovate, improve."
