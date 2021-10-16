@@ -1,5 +1,5 @@
 ---
 layout: category
-category-name: career
-permalink: "/categories/career"
+category-name: geopolitics
+permalink: "/categories/geopolitics"
 ---
