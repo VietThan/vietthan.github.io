@@ -9,4 +9,4 @@ categories: [tech]
 
 {% include youtube.html id="dOfucXtyEsU" %}
 
-I was reminded of this video because of my fintech interviews (who love C++). Matt Godbolt is very famous in the C++ community, of course, because of his website [godbolt.org](https://godbolt.org/). And it's talk like this that shows why some people think C++ programmers are wizards, or insane to work with such a language.
+I was reminded of this video because of my fintech interviews (who love C++). Matt Godbolt is very famous in the C++ community, of course, because of his website [godbolt.org](https://godbolt.org/). And it's talk like this that shows why some people think C++ programmers are wizards, or insane, to work with such a language.
