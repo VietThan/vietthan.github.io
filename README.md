@@ -12,5 +12,3 @@ Documented in category [Jekyll](https://vietthan.github.io/categories/jekyll)
 ```bash
 $ bundle exec jekyll serve --drafts --livereload
 ```
-
-lol
