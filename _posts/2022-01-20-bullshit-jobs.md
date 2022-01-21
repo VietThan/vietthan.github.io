@@ -12,5 +12,7 @@ categories: [society, controversial]
 > the fact that expertise in a particular field of compliance and expertise in the government bureaucracy mandating the compliance is the exact same skillset and a common career path is jumping back and forth between the two “Sure i can help you comply with these rules! I was the one enforcing them!” “Sure i can help you write and enforce the rules! I’ve spent the past 4 years complying with them!” Does very little in my confidence for this field. 
 - /u/KulakRevolt 
 
+<!--break-->
+
 a reply:
 > I proposed once on this forum that some value is "derivative" of other value, so that none of the people doing sales at an oil company could exist without someone manning the well. I remember being mostly told that economics isn't measured that way. (I consider that economics' problem.)
