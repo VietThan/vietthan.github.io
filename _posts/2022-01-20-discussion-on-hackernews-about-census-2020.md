@@ -2,7 +2,7 @@
 layout: post
 title: "discussion on HackerNews about census 2020"
 date: 2022-01-20 21:36:54 -0500
-categories: [society]
+categories: [society, controversial]
 ---
 
 > I'm in favor of removing the race question from the census. It proliferates collectivist thinking (my people/kin vs others, based on bloodlines or appearance) over individualism. It is also used as a justification for implementing discriminatory policies, ironically in the name of fighting discrimination.
