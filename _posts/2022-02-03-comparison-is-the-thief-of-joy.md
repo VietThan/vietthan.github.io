@@ -2,7 +2,7 @@
 layout: post
 title: "comparison is the thief of joy"
 date: 2022-02-03 22:08:29 -0500
-categories: [personal]
+categories: [quotes]
 ---
 
 [some words by /u/Oberon_Swanson](https://www.reddit.com/r/selfimprovement/comments/6f9umn/i_know_the_saying_comparison_is_the_thief_of_joy/digtqag)
