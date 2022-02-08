@@ -2,7 +2,7 @@
 layout: post
 title: "how do you database?"
 date: 2022-02-03 22:16:41 -0500
-categories: [thoughts]
+categories: [thoughts, tech]
 ---
 
 At my previous job, govtech/tax-tech, the database was just as important as the code. Now what do I mean by that? Mooney [explained it best](https://mooneyblog.mmdbsolutions.com/2010/03/23/why-your-database-version-control-strategy-sucks-and-what-to-do-about-it-part-i/) on this exact topic:
