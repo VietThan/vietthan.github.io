@@ -9,7 +9,7 @@ You know your company is growing if your openvpn `--max-client` limit [suddenly 
 
 <!--break-->
 
-It started around 2PM, our resident SysAdmin-Extraodinaire Dave, was sitting in the seat next to me when he suddenly says out loud "I can't connect to any jbrains". Ray who sits opposite me reached for his keyboard, typed a few things, and confirm "huh, I can't connect to any either". At this point, the other support engineers started doing the same thing, verifying that they too can't connect to any jbrains. 
+It started around 2PM, our resident SysAdmin-Extraodinaire Dave, was sitting in the seat next to me when he suddenly says out loud "I can't connect to any jbrains". Ray who sits opposite me reached for his keyboard, typed a few things, and confirm "huh, I can't connect to any either".  Hearing that, the other support engineers started doing the same thing, verifying that they too can't connect to any jbrains. 
 
 At this point I should explain what are the jbrains. They're AppCard's brains in the field, deploying one to each merchant that we work with, handles any business logic, watch and alter POS transactions, send back data to our remote servers. From our servers, we can ssh into any of the jbrains to do maintenance, debugging, retrieving logs, etc. In short, they're the most important component in the AppCard hardware system, and now none of us can connect to them.
 
