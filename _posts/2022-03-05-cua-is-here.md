@@ -6,3 +6,13 @@ categories: [personal]
 ---
 
 cua is here.
+
+# heading
+## subheading
+### subheading
+
+_italicezed_
+
+**bold**
+
+![assets/eldritch_sun.jpg](/assets/niche_mono1.jpg)
