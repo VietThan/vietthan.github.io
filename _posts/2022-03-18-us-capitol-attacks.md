@@ -8,6 +8,7 @@ categories: [quotes, controversial]
 > Honorable Mentions:
 >
 > Various duels and fights conducted in the Capitol or by Senators and Congressmen. Special plaudits go to: the duel in which Representative William J. Graves of Kentucky killed Representative Jonathan Cilley of Maine; the incident on February 6th 1858 in which a debate over the Kansas Territory grew into a fistfight that included over 30 Representatives; "The Battle of the Reed Rules," in which newly-elected Speaker Thomas Brackett Reed attempted to count Democrats in the chamber who were present but remaining silent to defy a quorum, after which Democrats attempted to flee before Reed had the doors ordered locked; the infamous Brooks-Sumner affair, when Preston Brooks of South Carolina beat Charles Sumner with a cane on the Senate Floor over a heated debate on slavery (which only ended when several Senators pulled pistols to restore order); and, less-famously, the caning in 1866, when Lovell Rousseau of Kentucky (a Union general during the war) caned Josiah Grinnell of Iowa, after which Rousseau was censured, resigned, and then re-elected handily in the same seat.
+><!--break-->
 >
 > Honorable Mention: The Weather Underground
 >
@@ -68,3 +69,13 @@ More radical takes:
 > It sounds pretty radical now that I type it out, but I stand by it.
 >
 > - [/u/dfgt](https://old.reddit.com/r/TheMotte/comments/ruvu1k/culture_war_roundup_for_the_week_of_january_03/hrp0e89/?context=999)
+
+More commentary:
+
+> If the described plan existed, and was only foiled by Pence not playing along, he would have found out, kept receipts and gone on Oprah as a hero, rather than retiring to a life of obscurity. He may not be a shining intellectual star, but you don't get to be vice president by being blind enough to get played like that. 
+> 
+> Also, I'll believe that some kind of plan existed in Trumps delusional inner circle, but a plan that required the direct complicity of the Secret Service and the Capitol Police? With no leaks a year later? Hatched by a president who couldn't conspire to hold on to even his own chief of staff? Helped by Four Seasons-guy?
+> 
+> The biggest argument against most conspiracy theories is that they require a level of competence on part of the perpetrators that very clearly does not exist (and, if it did exist, the conspiracy often wouldn't be necessary -- I mean, 9/11, all that to get to go to war in Iraq, instead of just fabricating and planting convincing evidence of a WMD-program?).
+>
+> [/u/mseebach](https://old.reddit.com/r/TheMotte/comments/s80liw/quality_contributions_report_for_january_2022_12/htso54t/?context=999)
