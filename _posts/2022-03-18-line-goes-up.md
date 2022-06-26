@@ -47,4 +47,6 @@ Tô Minh Sơn's comment on apenwarr:
 
 > "Men prefer to will nothingness than to not will"
 
+and also pointed me to [chainalysis's ranking of crypto adoption with Vietnam being on top](https://blog.chainalysis.com/reports/2021-global-crypto-adoption-index/)
+
 
