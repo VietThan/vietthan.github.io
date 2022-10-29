@@ -5,9 +5,11 @@ date: 2022-10-28 23:20:06 -0400
 categories: [tech, work, career, interview]
 ---
 
-Many developers will have done this, some probably do this as a daily routine, but a recent work of mine on a data recovery job felt like a latest expression of my progress so far.
+Many developers will have done this, some probably do this as a daily routine, but a recent work of mine on a data recovery job felt like a latest expression of my career's progress so far.
 
 <!--break-->
+
+## The Problem
 
 After being notified by some customers, AppCard discovered that a real-time SQS data queue provided by a third-party hasn’t provided real-time data in a while. Though we were able to quickly notify our third-party to bring that system back online, we still had an issue where approximately 4 days of data was missing and unprocessed. 
 
@@ -18,6 +20,8 @@ Based on business considerations, we decided that it would be best if we could r
 2. How long would it take to implement this?
 
 {% include centerImage.html url="/assets/DataRecovery/give_the_money.gif" desc="How I imagine any average customer hearing about missing data" title="The greed of man is insatiable" alt="Scene from the show Friends where Phoebe grabs Ross then threateningly says 'Give me your money, Punk'" %}
+
+## The Fix 
 
 Firing up a jupyter notebook, I got to work. Quickly, I was able to confirm that with the right secrets pulled from the right place, and just reading the documentation, the third-party's API seems to be able to provide the data we need. ( We are leaving aside the question why we rely on an SQS instead of this API ;) ). Additionally, after quickly skimming through our integration subsystem, I was able to identify a location in the flow where the right data could be injected with the right dummy setup.
 
@@ -35,6 +39,8 @@ Our async infrastructure and integration is already built on the Python framewor
 Once I felt comfortable, we had a pre-production environment that I made sure to test out my task. But admittedly our pre-production data is very different from real production. There were immediate hiccups once this was merged in production, one of our assumptions turned out to be incorrect and sometimes the async job didn’t automatically repeat even though there was more data in the gap to query. Thankfully, I could manually re-trigger the jobs with the right parameters because of the logging. This meant more human intervention but still allowed the job to finish. 
 
 {% include centerImage.html url="/assets/DataRecovery/phew.gif" desc="I didn't do this cause I was sitting next to the business, but I was this internally" title="A lot of internal self-praise" alt="Some guy wiping his brow" %}
+
+## The Conclusion
 
 In the end, almost all our customers didn’t even notice the data gap. Shoppers got their points and we didn't need to give anyone any extra credit. My teammates could focus on other task. As for me, this mini-project was well-delivered, well-scheduled, and had real immediate business impact on the bottom line. Coming home that day, I felt like I earned my paycheck.
 
