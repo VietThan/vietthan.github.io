@@ -9,7 +9,7 @@ Many developers will have done this, some probably do this as a daily routine, b
 
 After being notified by some customers, AppCard discovered that a real-time SQS data queue provided by a third-party hasn’t provided real-time data in a while. Though we were able to quickly notify our third-party to bring that system back online, we still had an issue where approximately 4 days of data was missing and unprocessed. 
 
-{% include centerImage.html url="/assets/DataRecovery/records_dont_exist.webp" desc="Jocasta Nu is her name btw" title="The 3rd-party didn't say this, but more like 'we don't want to deal with this'" alt="Jedi Master Jocasta Nu tells Obi-Wan Kenobi that 'if an item doesn't appear in our records, it does not exist'" %}
+{% include centerImage.html url="/assets/DataRecovery/records_dont_exist.gif" desc="Jocasta Nu is her name btw" title="The 3rd-party didn't say this, but more like 'we don't want to deal with this'" alt="Jedi Master Jocasta Nu tells Obi-Wan Kenobi that 'if an item doesn't appear in our records, it does not exist'" %}
 
 Based on business considerations, we decided that it would be best if we could recover the data without needing help from the third-party (or that they should be doing this because after all it's their fault). When the integration lead hesitated to take on this responsibility due to allocation constraints, I volunteered to take on the challenge. There were two components I had to address before even committing (because free credits for customers are expensive but simple):
 1. Is it possible to retrieve the data from the third-party's available API?
