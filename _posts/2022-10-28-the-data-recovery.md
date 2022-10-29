@@ -17,9 +17,9 @@ Based on business considerations, we decided that it would be best if we could r
 
 {% include centerImage.html url="/assets/DataRecovery/give_the_money.gif" desc="How I imagine any average customer" title="The greed of man is insatiable" alt="Scene from the show Friends where Phoebe grabs Ross then threateningly says 'Give me your money, Punk'" %}
 
-Firing up a jupyter notebook, I got to work. Quickly, I was able to confirm that with the right secrets pulled from the right place, and just reading the documentation, the third-party's API seems to be able to provide to us the data we need. ( We are leaving aside the question why we rely on an SQS instead of this API ;) ). Additionally, after quickly skimming through our integration subsystem, I was able to identify a location in the flow where I could inject the data if I have the right dummy wrapper setup.
+Firing up a jupyter notebook, I got to work. Quickly, I was able to confirm that with the right secrets pulled from the right place, and just reading the documentation, the third-party's API seems to be able to provide the data we need. ( We are leaving aside the question why we rely on an SQS instead of this API ;) ). Additionally, after quickly skimming through our integration subsystem, I was able to identify a location in the flow where I could inject the data if I have the right dummy wrapper setup.
 
-
+{% include centerImage.html url="/assets/DataRecovery/in_theory_possible.gif" desc="I was 70% sure" title="The line between confidence and arrogance is thin" alt="Some dude on a red couch saying 'In theory it's possible'" %}
 
 Gauging my own speed of development, considering that realistically I only grasp maybe 60-70% of how to use the API or the integration subsystem, and adding some buffer, I was able to give an estimate of 2 days for implementation and 1 day to run the recovery process to the business and tech leads by the same day, which then my lead gave the greenlight to carry on. 
 
