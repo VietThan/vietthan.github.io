@@ -15,7 +15,7 @@ After being notified by some customers, AppCard discovered that a real-time SQS 
 
 {% include centerImage.html url="/assets/DataRecovery/not_my_problem.gif" desc="What I wanted us to say to them but they said this to us first" title="The 3rd-party didn't say this, but more like 'we don't want to deal with this'" alt="Jimmy Fallon on The Tonight Show saying 'This sounds more like a you problem'" %}
 
-Based on business considerations, we decided that it would be best if we could recover the data without needing help from the third-party (or that they should be doing this because after all it's their fault). When the integration lead hesitated to take on this responsibility due to allocation constraints, I volunteered to take on the challenge. There were two components I had to address before even committing (because free credits for customers are expensive but simple):
+Based on business considerations, we decided that it would be best if we could recover the data without needing help from the third-party (instead of telling them that they should be doing this because after all it's their fault). When the integration lead hesitated to take on this responsibility due to allocation constraints, I volunteered to take on the challenge. There were two components I had to address before even committing (because free credits for customers are expensive but simple):
 1. Is it possible to retrieve the data from the third-party's available API?
 2. How long would it take to implement this?
 
