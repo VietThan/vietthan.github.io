@@ -42,6 +42,6 @@ Once I felt comfortable, we had a pre-production environment that I made sure to
 
 ## The Conclusion
 
-In the end, almost all our customers didn’t even notice the data gap. Shoppers got their points and we didn't need to give anyone any extra credit. My teammates could focus on other task. As for me, this mini-project was well-delivered, well-scheduled, and had real immediate business impact on the bottom line. Coming home that day, I felt like I earned my paycheck.
+In the end, almost all our customers didn’t even notice the data gap. Shoppers got their points and we didn't need to give anyone any extra credit. My teammates could focus on other tasks while I proved to myself that I can sovle vague and unknown problems by myself. This mini-project was well-delivered, well-scheduled, and had real immediate business impact on the bottom line. Coming home that day, I felt like I earned my paycheck.
 
 {% include centerImage.html url="/assets/DataRecovery/honest_work.jpg" desc="Professional pride feels good" title="Couldn't find the gif for this" alt="The meme with the farmer and caption 'It ain't much, but it's honest work'" %}
