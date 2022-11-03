@@ -35,4 +35,4 @@ Anyway, what was the issue isn't important (it is fixed by now!)(there was missi
 
 Looking back, I think of this story as a fond discovery. The CTO was definitely pleased to hear about this find. And I think it's a lesson in how effective but forgotten scripts and software can quietly run for years until the day something breaks.
 
-PS: We are starting to centralize the various perl and bash scripts across servers and versioning control them. Not forgetting them too!
+PS: We are starting to centralize the various perl and bash scripts across servers and versioning control them. Not forgetting those too!
