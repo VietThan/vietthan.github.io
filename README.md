@@ -9,6 +9,12 @@ Documented in category [Jekyll](https://vietthan.github.io/categories/jekyll)
 
 ## Running locally
 
+1. Install rbenv
+2. Install `jekyll` and `bundler`
+```shell
+gem install jekyll bundler
+```
+3. 
 ```bash
 $ bundle exec jekyll serve --drafts --livereload
 ```
