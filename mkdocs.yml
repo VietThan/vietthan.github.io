@@ -1,0 +1,12 @@
+site_name: Viet Than Blogging
+site_url: https://vietthan.github.io
+theme:
+  name: material
+
+plugins:
+  - blog
+
+nav:
+  - index.md
+  - Blog:
+    - blog/index.md
