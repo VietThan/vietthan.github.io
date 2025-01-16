@@ -16,7 +16,7 @@ As such, this can only be none other than the best (if not the best) abs routine
 
 <!-- more -->
 
-Gifs extract from [video routine uploaded by mannypacquiaofficial][1].
+GIFs extracted from [video routine uploaded by mannypacquiaofficial][1].
 
 Exercise transcriptions adapted from [Muddy's transcription][2].
 
