@@ -3,7 +3,7 @@ draft: false
 title: "trust game"
 date: 2021-08-11 18:07:18
 categories: 
-    - tech'
+    - tech
     - society
 ---
 
