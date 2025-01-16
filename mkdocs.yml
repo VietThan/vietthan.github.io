@@ -11,6 +11,7 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
       primary: teal
+      accent: red
         
 
     # Palette toggle for dark mode
@@ -19,6 +20,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
       primary: teal
+      accent: red
 
 plugins:
   - blog
