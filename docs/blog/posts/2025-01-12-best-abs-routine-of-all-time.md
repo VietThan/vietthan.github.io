@@ -12,7 +12,7 @@ categories:
 [Manny Pacquiao](https://en.wikipedia.org/wiki/Manny_Pacquiao) is widely considered one
 of the best (if not the best) boxers of all time. 
 
-As such, this can only be none other than the best (if not the best) abs routine of all time.
+As such, this can only be none other than one of the best (if not the best) abs routine of all time.
 
 <!-- more -->
 
