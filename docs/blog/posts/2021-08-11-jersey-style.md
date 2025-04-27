@@ -1,9 +1,8 @@
 ---
-draft: false
+layout: post
 title: "jersey style"
 date: 2021-08-11 14:04:49
-categories: 
-    - tech
+categories: [tech]
 ---
 
 > The lesson to be learned from this is that it is often undesirable to go for the right thing first. It is better to get half of the right thing available so that it spreads like a virus. Once people are hooked on it, take the time to improve it to 90% of the right thing.

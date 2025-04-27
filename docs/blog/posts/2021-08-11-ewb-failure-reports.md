@@ -1,10 +1,8 @@
 ---
-draft: false
+layout: post
 title: "EWB Failure Reports"
 date: 2021-08-11 10:15:40
-categories: 
-    - engineering
-    - charity
+categories: [engineering, charity]
 ---
 
 > "What happens when engineers run a charity? They write detailed postmortems, of course, so they can fix their mistakes." - apenwarr

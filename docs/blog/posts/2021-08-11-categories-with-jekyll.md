@@ -1,12 +1,9 @@
 ---
-draft: false
+layout: post
 title: "Categories with Jekyll"
 date: 2021-08-11 13:04:43
-categories: 
-    - guide
-    - jekyll
+categories: [guide, jekyll]
 ---
-
 So I added categories. This allows people to read my blog specific categories if they want to.
 
 Now I have to figure out how to make my header navigation bar.

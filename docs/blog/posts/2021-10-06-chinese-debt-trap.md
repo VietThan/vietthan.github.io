@@ -1,0 +1,14 @@
+---
+layout: post
+title: "chinese debt trap"
+date: 2021-10-06 21:16:21
+categories: [society, geopolitics]
+---
+
+> Theoretically but from a different perspective, I'd argue that the countries don't really have an incentive to push back. I'm going to just paraphrase from Prof. Brautigam's book The Dragon’s Gift: The Real Story of China in Africa (Oxford Press, 2010) here. Essentially, the 'debt trap' meme is drastically overplayed here and the lending program has been largely received positively by the governments that take on China's loans. Brautigam is rare among Western academics with her research as she has conducted a fair amount of field research, so a lot of what she cites comes from government documents and on-the-ground analysis. From that, Brautigam argues that China's lending diplomacy seems to in actuality be much more about sharing China's development experiences with countries that might not traditionally attract a lot of outside investment and countries that participate seem to be rather receptive of these lending tactics in part **because they have no where else to turn to**. One prime example here is the whole development cycle of an Indonesian port; she writes about it [here](https://www.the-american-interest.com/2019/04/04/misdiagnosing-the-chinese-infrastructure-push/).
+>
+> <!--break-->
+>
+> Brautigam's research also highlighted some economic issues that Chinese lending seems to have alleviated somewhat, issues that governments might be keen on eliminating for future development. Contrary to popular belief, China is not using its lending programs to price out indigenous businesses and replace them with Chinese conglomerates/workers. Instead, Brautigam states that supply constraints might be a much larger limiting factor constraining how a lot of countries develop and having Chinese money/economic advisors can help open up economies (for example, providing capital when it might not otherwise be available). To a certain extent, China's experiences now are also shaped by their own development experiences in decades past when they received loans and infrastructure deals with Japan and the West. That too includes the methods by which loans are given and repaid. Brautigam has shown that China is largely rather lenient with loans, providing flexibility with restructuring and forgiveness. So basically, there isn't really much of an incentive for these countries to discard this additional investment opportunity especially since a lot of Chinese loans don't come with the various political and social strings attached to, for instance, IMF loans."
+
+- [/u/beepybeetle](https://www.reddit.com/r/AskEconomics/comments/pykbe1/comment/hev7ox9/?utm_source=share&utm_medium=web2x&context=3)

@@ -1,10 +1,8 @@
 ---
-draft: false
+layout: post
 title: "trust game"
 date: 2021-08-11 18:07:18
-categories: 
-    - tech
-    - society
+categories: [quotes]
 ---
 
 > 'Fool me once, shame on...shame on you. Fool me—you can't get fooled again.' - George W Bush
